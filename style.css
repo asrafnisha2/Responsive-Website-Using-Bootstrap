@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+  background-color:#0f172a;
+}
+
+/* HERO SECTION */
+.hero{
+  height:100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("hero.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  text-align:center;
+  color:white;
+}
+
+.hero-content h1{
+  font-size:60px;
+  font-weight:800;
+}
+
+.hero-content p{
+  font-size:22px;
+  margin-top:10px;
+}
+
+/* Section spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Section headings */
+section h2 {
+  margin-bottom: 40px;
+}
+
+/* PRODUCTS SECTION */
+.products-section h3{
+  color:#2563eb;
+  margin-bottom:80px;
+}
+
+.products-section p{
+  color:#334155;
+  line-height:1.7;
+}
+
+.products-section ul li{
+  margin-bottom:6px;
+}
+
+.contact-form{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+}
+
+.contact-form input{
+  height:45px;
+}
+
+/* SERVICES SECTION */
+.services-section{
+  padding:80px 0;
+  background:#f1f5f9;
+}
+
+.services-section h2{
+  color:#0f172a;
+}
+
+.card-title{
+  color:#2563eb;
+  font-weight:600;
+}
+
+/* FOOTER SECTION */
+.footer-section{
+  background:#020617;
+  color:#e5e7eb;
+  padding:50px 0;
+}
+
+.footer-section h5{
+  color:#ffffff;
+  margin-bottom:15px;
+}
+
+.footer-links{
+  list-style:none;
+  padding-left:0;
+}
+
+.footer-links li{
+  margin-bottom:8px;
+}
+
+.footer-links i{
+  color:#38bdf8;
+  margin-right:6px;
+}
+
+.footer-section i{
+  margin-right:6px;
+  color:#38bdf8;
+}
+
+.footer-section hr{
+  border-color:#334155;
+}
+
