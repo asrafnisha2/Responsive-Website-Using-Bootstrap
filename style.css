@@ -8,12 +8,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* NAVBAR */
+
 .navbar{
   background-color:#0f172a;
 }
 
-/* HERO SECTION */
+
 .hero{
   height:100vh;
   background:
@@ -41,17 +41,16 @@ body{
   margin-top:10px;
 }
 
-/* Section spacing */
+
 section {
   padding: 80px 0;
 }
 
-/* Section headings */
+
 section h2 {
   margin-bottom: 40px;
 }
 
-/* PRODUCTS SECTION */
 .products-section h3{
   color:#2563eb;
   margin-bottom:80px;
@@ -76,7 +75,7 @@ section h2 {
   height:45px;
 }
 
-/* SERVICES SECTION */
+
 .services-section{
   padding:80px 0;
   background:#f1f5f9;
@@ -91,7 +90,7 @@ section h2 {
   font-weight:600;
 }
 
-/* FOOTER SECTION */
+
 .footer-section{
   background:#020617;
   color:#e5e7eb;
